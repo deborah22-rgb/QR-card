@@ -1,0 +1,45 @@
+:root {
+    --whilte: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(229, 15%, 55%);
+    --Dark-blue: hsl(21%, 40%, 32%);
+}
+* {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    background-color: var(--light-gray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    background-color: var(--whilte);
+    width: 350px;
+    height: 100%;
+    text-align: center;
+    box-shadow: 10px 19px 17px rgba(0,0,0,0.1);
+    border-radius: 1rem;
+}
+.card-container {
+    margin: 10% auto ;
+}
+.card-container img 
+{
+    width: 300px;
+    border-radius: 1rem;
+}
+.card-container h2 {
+    color: var(--Dark-blue);
+    font-weight: 700;
+    margin: 5% auto;
+}
+.card-container p {
+    color: var(--Grayish-blue);
+    font-weight: 100;
+    margin: 1rem 0;
+}
